@@ -1,0 +1,5 @@
+Motor   	   KEYWORD1
+tras     	   KEYWORD2
+frente  	   KEYWORD2
+parar   	   KEYWORD2
+alterarVelocidade  KEYWORD2
