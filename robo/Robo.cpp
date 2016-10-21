@@ -46,3 +46,4 @@ void Robo::alterarVelocidade(int velocidade) {
 	(*_motorEsquerda).alterarVelocidade(velocidade);
 	(*_motorDireita).alterarVelocidade(velocidade);
 }
+

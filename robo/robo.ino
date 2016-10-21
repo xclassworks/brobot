@@ -7,10 +7,6 @@
 #define MOVE_BACKWARDS          66
 #define ROTATE_LEFT             76
 #define ROTATE_RIGHT            82
-#define CAMERA_MOVE_FORWARD     70
-#define CAMERA_MOVE_BACKWARDS   66
-#define CAMERA_ROTATE_LEFT      76
-#define CAMERA_ROTATE_RIGHT     82
 
 int command;
 
@@ -54,10 +50,10 @@ void loop() {
                 robo.andarTras();
                 break;
             case ROTATE_LEFT:
-                robo.girarEsquerda();
+                robo.girarDireita();
                 break;
             case ROTATE_RIGHT:
-                robo.girarDireita();
+                robo.girarEsquerda();
                 break;
             case STOP:
                 robo.parar();
@@ -67,3 +63,4 @@ void loop() {
         //delay(2500);
     }
 }
+

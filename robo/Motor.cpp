@@ -38,3 +38,4 @@ void Motor::parar()
 void Motor::alterarVelocidade(int velocidade) {
 	analogWrite(_pinoVelocidade, velocidade);
 }
+
